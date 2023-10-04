@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Lucida Console", "Courier New", monospace; */
+    background: url('./asset/brooke-lark-08bOYnH_r_E-unsplash.jpg'); /* Gradient Background + Image Background */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment: fixed; /* Fixed background position */
+}
+
+/* ... rest of your CSS ... */
+
+
+header {
+    /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent white */
+    padding: 20px;
+    text-align: center;
+}
+
+nav h1 {
+    color: #E4A0B7;
+    font-size: 28px;
+    margin: 0;
+}
+
+.hero {
+    /* background: linear-gradient(135deg, #EFCFD4, #F5DADD, #E4A0B7, #ebe0e8); Gradient Background */
+    padding: 50px;
+    text-align: center;
+    color: white;
+    /* margin-top: 30px;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #E4A0B7, #ebe0e8);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px; */
+}
+
+.hero h2 {
+    font-size: 36px;
+    color: cadetblue;
+    background-color: #f5f8f5;
+    font-family: sans-serif;
+
+    padding: 15px 30px;
+    /* background: linear-gradient(135deg, #E4A0B7, #ebe0e8); */
+    /* color: white; */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 20px;
+
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#downloadRecipeBtn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 15px 50px;
+    background: linear-gradient(135deg, #c46584, #610e4b); /* Gradient Button Background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background 0.3s ease;
+    font-family: "math";
+}
+
+#downloadRecipeBtn:hover {
+    background: linear-gradient(135deg, #FF609E, #f5f8f5); /* Gradient Button Background on Hover */
+}
+
+.bio {
+    padding: 40px 0;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #E4A0B7, #ebe0e8); /* Gradient Button Background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bio-content {
+    max-width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, #e0f3e4, #17f180);
+    /* padding: 15px 30px; */
+    /* background: linear-gradient(135deg, #E4A0B7, #ebe0e8); */
+    /* color: white; */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    /* padding: 15px 30px; */
+    background: linear-gradient(135deg, #e0f3e4, #17f180);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #3e373e;
+    font-family: cursive;
+}
+
+.bio p {
+    font-size: 16px;
+
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #E4A0B7, #ebe0e8);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "math";
+}
+
+.gallery {
+    padding: 40px 0;
+    /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent white */
+    text-align: center;
+    /* You can add your gallery styling here */
+}
